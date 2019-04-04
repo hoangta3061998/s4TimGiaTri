@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="test()">
+<script>
+    function test() {
+        let value = prompt('Enter a number :');
+        let x = [15, 20, 39, 46, 58];
+        let i;
+        for (i = 0; i < x.length; i++) {
+            if (value == x[i]) {
+                alert("Value" + x[i] + "found at" + i);
+            }
+        }
+    }
+</script>
+</body>
+</html>
